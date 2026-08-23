@@ -13,7 +13,7 @@ import { BiseSargodhaPortal } from '../components/BiseSargodhaPortal';
 import { Footer } from '../components/Footer';
 import { InquiryModal } from '../components/InquiryModal';
 import { ProgramLevel } from './types';
-import { HELPDESK_PHONE, HELPDESK_WHATSAPP } from './data/aiouData';
+import { HELPDESK_PHONE, HELPDESK_WHATSAPP } from '../data/aiouData';
 import { Phone, MessageCircle } from 'lucide-react';
 
 export default function App() {
