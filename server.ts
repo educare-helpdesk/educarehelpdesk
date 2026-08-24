@@ -267,7 +267,7 @@ Return ONLY a valid JSON array of objects with these exact properties:
   }
 });
 
-// Start Vite in dev mode or serve static files in production
+// Start Vite in development mode or serve static files in production
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
@@ -288,7 +288,7 @@ async function startServer() {
 
   app.listen(PORT, "0.0.0.0", () => {
     console.log(
-      `Educare Help Desk AIOU Server running on http://localhost:${PORT}`
+      `Educare Help Desk AIOU Server running on port ${PORT}`
     );
   });
 }
